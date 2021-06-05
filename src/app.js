@@ -121,7 +121,7 @@ app.get('/weather',(req,res)=>{
                    })
                 }        
                 //console.log(response);                
-                // console.log("Current Temperature is " + response.body.current.temperature +' but feels like ' + response.body.current.feelslike);
+                 //console.log("Current Temperature is " + response.body.current.temperature +' but feels like ' + response.body.current.feelslike);
 
                 const{temperature,feelslike} = response.body.current; //another way of doing this - object destructor
                 //console.log("Current Temperature is " + temperature +' but feels like ' + feelslike);
