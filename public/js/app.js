@@ -69,6 +69,7 @@ weatherform.addEventListener('submit',(event)=>{
                 messageOne.textContent='Current weather for your location: ' + location;
                 messageTwo.textContent = 'Temperature: '+data.CurrentTemperature;
                 messageTwo.textContent+=' Feels like: '+ data.feelslike;
+                messageTwo.textContent +=' Stars: ' + data.stars;
             }       
         })
         

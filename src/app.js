@@ -127,7 +127,8 @@ app.get('/weather',(req,res)=>{
                 //console.log("Current Temperature is " + temperature +' but feels like ' + feelslike);
                 return res.send({
                     CurrentTemperature:temperature,
-                    feelslike:feelslike
+                    feelslike:feelslike,
+                    stars:'five'
                 })
             })
         }
